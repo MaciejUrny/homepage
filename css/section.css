@@ -1,0 +1,17 @@
+.section {
+    margin: 20px;
+}
+
+.section__header {
+    text-shadow: 2px 2px hsl(236, 78%, 85%);
+}
+
+.section__span {
+    color: hsl(268, 100%, 31%);
+    text-decoration: underline;
+}
+
+.section__contactList {
+    list-style: none;
+    padding-left: 0px;
+}

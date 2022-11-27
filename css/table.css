@@ -1,0 +1,34 @@
+.table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table__caption {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.table__cell {
+    border: 1px solid rgb(160, 3, 3);
+    padding: 5px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.table__cell--header {
+    background-color: orange;
+    border: 1px solid rgb(160, 3, 3);
+    padding: 5px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.table__row:hover {
+    background-color: orangered;
+}
+
+.table__cell--headerHighlighted {
+    background-color: rgb(157, 255, 0);
+}

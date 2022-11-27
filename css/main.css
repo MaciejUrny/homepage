@@ -1,0 +1,41 @@
+.main__tableContainer {
+    overflow: auto;
+}
+
+.main__button {
+    font-weight: bold;
+    background-color: orange;
+    border-color: yellow;
+    padding: 10px;
+    margin: 20px;
+}
+
+.main__image {
+    min-width: 300px;
+    width: 25%;
+    border-radius: 20%;
+    border-style: double;
+    border-width: 5px;
+    border-color: blue;
+    position: static;
+    box-shadow: 16px 14px 28px 12px #7754C4;
+}
+
+.main__container {
+    text-align: right;
+}
+
+.main__navigationLink {
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: hsla(0, 1%, 74%);
+}
+
+.main__navigationLink:hover {
+    color: blue;
+    outline: none;
+}

@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wizytówka Maciej Urny</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/navigation.css" rel="stylesheet" />
+    <link href="css/header.css" rel="stylesheet" />
+    <link href="css/section.css" rel="stylesheet" />
+    <link href="css/body.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
+    <link href="css/table.css" rel="stylesheet" />
+    <link href="css/footer.css" rel="stylesheet" />
+    <script defer src="js/script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      rel="preconnect"
+      href="https://fonts.gst</section>atic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="body">
+    <header class="header">
+      <h1 class="header__title">Maciej Urny</h1>
+    </header>
+
+    <nav class="navigation">
+      <ul class="navigation__list">
+        <li class="navigation__element">
+          <a class="navigation__link" href="#o-mnie">O mnie</a>
+        </li>
+        <li class="navigation__element">
+          <a class="navigation__link" href="#zainteresowania"
+            >Zainteresowania</a
+          >
+        </li>
+        <li class="navigation__element">
+          <a class="navigation__link" href="#tabela">Tabela</a>
+        </li>
+        <li class="navigation__element">
+          <a class="navigation__link" href="#kontakt">Kontakt</a>
+        </li>
+      </ul>
+    </nav>
+
+    <main class="main">
+      <section class="section" id="o-mnie">
+        <h2 class="section__header">Trochę o mnie.</h2>
+        <p>
+          Nazywam się <strong>Maciej Urny</strong> mam 29 lat. Pochodzę z
+          Goliny, jest to mała wioska koło Jarocina w Wielkopolsce. Nasza wieś
+          ostatnio staje się rozpoznawalna przez zakłady mięsne znajdujące się w
+          strefie ekonomicznej oraz plany budowy spalarni odpadów. Chociaż wiem,
+          że i tak
+          <span class="section__span"
+            >większość osób bardziej zna Jarocin ze względu na
+            <b>Festiwal Jarocin</b></span
+          >
+          , który co roku odbywa się w lipcu.
+        </p>
+        <p>
+          Pracuję jako
+          <i>operator-programista maszyn sterowanych numerycznie</i> chociaż w
+          2013 roku ukończyłem technikum informatyczne w jarocinie. W pracy
+          programuję i obsługuje kilku tonowe maszyny. Wykonuję podzespoły do
+          maszyn i urządzeń z których codziennie ktoś korzysta. Pomimo, iż jest
+          to ciekawe brakuje mi poważnych wyzwań.
+          <strong
+            >Kurs w YouCode zacząłem, aby wrócić do korzeni i robić to co lubię
+            i sprawia mi frajdę.</strong
+          >
+        </p>
+        <div class="main__container">
+          <a class="main__navigationLink" href="#top">Do góry</a>
+        </div>
+      </section>
+
+      <button class="main__button js-button">Ukryj zdjęcie.</button>
+
+      <div>
+        <img
+          class="main__image js-image"
+          src="https://i.ibb.co/KmJGtcy/20190524-192344.jpg"
+          alt="Maciej Urny"
+        />
+      </div>
+
+      <section class="section" id="zainteresowania">
+        <h2 class="section__header">Co robię w wolnym czasie?</h2>
+        <p>
+          W większości czas wolny spędzam z rodziną ale nie tylko. Po pracy
+          oddaję się również mojemu hobby jakim jest pszczelarstwo.
+          Hobbystycznie zajmuję się 20 pniową pasieką. Nie znoszę nudy, dlatego
+          rozwijam swoje zainteresowania do których oprócz pszczelarstwa należy
+          również muzyka. Amatorsko gram na gitarze. Lubię też kino akcji,
+          komedie i sci-fi. Wakacje uwielbiam spędzać w górach na pieszych
+          wędrówkach.
+        </p>
+        <div class="main__container">
+          <a class="main__navigationLink" href="#top">Do góry</a>
+        </div>
+      </section>
+
+      <div class="main__tableContainer" id="tabela">
+        <table class="table">
+          <caption class="table__caption">
+            Średnie ceny miodów oferowanych w polskich sklepach internetowych
+            stan na 08.08.2022r.
+          </caption>
+          <thead>
+            <tr class="table__row">
+              <th class="table__cell--header" scope="col">Rodzaj miodu</th>
+              <th class="table__cell--header" scope="col">
+                Średnia za 1 kg w opakowaniach 400-450 g
+              </th>
+              <th class="table__cell--header" scope="col">
+                Średnia za słoik 400 g
+              </th>
+              <th class="table__cell--header" scope="col">
+                Średnia za 1 kg w opakowaniach 900-1250 g
+              </th>
+              <th class="table__cell--header" scope="col">
+                Średnia za słoik 1250 g
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="table__row">
+              <th class="table__cell--header" scope="row">Wielokwiatowy</th>
+              <td class="table__cell">49 zł</td>
+              <td class="table__cell">19 zł</td>
+              <td class="table__cell">36 zł</td>
+              <td class="table__cell">45 zł</td>
+            </tr>
+            <tr class="table__row">
+              <th class="table__cell--header" scope="row">Rzepakowy</th>
+              <td class="table__cell">50 zł</td>
+              <td class="table__cell">20 zł</td>
+              <td class="table__cell">35 zł</td>
+              <td class="table__cell">43 zł</td>
+            </tr>
+            <tr class="table__row">
+              <th class="table__cell--header" scope="row">
+                Spadziowy ze spadzi iglastej
+              </th>
+              <td class="table__cell">71 zł</td>
+              <td class="table__cell">28 zł</td>
+              <td class="table__cell">60 zł</td>
+              <td class="table__cell">74 zł</td>
+            </tr>
+            <tr class="table__row">
+              <th class="table__cell--header" scope="row">Wrzosowy</th>
+              <td class="table__cell">115 zł</td>
+              <td class="table__cell">46 zł</td>
+              <td class="table__cell">97 zł</td>
+              <td class="table__cell">121 zł</td>
+            </tr>
+            <tr class="table__row">
+              <th class="table__cell--header" scope="row">Gryczany</th>
+              <td class="table__cell">58 zł</td>
+              <td class="table__cell">23 zł</td>
+              <td class="table__cell">43 zł</td>
+              <td class="table__cell">53 zł</td>
+            </tr>
+            <tr class="table__row">
+              <th class="table__cell--header" scope="row">Lipowy</th>
+              <td class="table__cell">56 zł</td>
+              <td class="table__cell">22 zł</td>
+              <td class="table__cell">44 zł</td>
+              <td class="table__cell">53 zł</td>
+            </tr>
+            <tr class="table__row">
+              <th class="table__cell--header" scope="row">Akacjowy</th>
+              <td class="table__cell">56 zł</td>
+              <td class="table__cell">22 zł</td>
+              <td class="table__cell">45 zł</td>
+              <td class="table__cell">56 zł</td>
+            </tr>
+            <tr class="table__row">
+              <th class="table__cell--header" scope="row">
+                Nektrarowo-spadziowy
+              </th>
+              <td class="table__cell">74 zł</td>
+              <td class="table__cell">30 zł</td>
+              <td class="table__cell">47 zł</td>
+              <td class="table__cell">59 zł</td>
+            </tr>
+            <tr class="table__row">
+              <th class="table__cell--header" scope="row">Faceliowy</th>
+              <td class="table__cell">88 zł</td>
+              <td class="table__cell">35 zł</td>
+              <td class="table__cell">45 zł</td>
+              <td class="table__cell">57 zł</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <th class="table__cell--header" colspan="5">
+                <a
+                  href="https://pasieka24.pl/index.php/pl-pl/pasieka-czasopismo-dla-pszczelarzy/237-pasieka-5-2022/3569-61-srednie-ceny-miodow-oferowanych-w-polskich-sklepach-internetowych"
+                  >Źródło danych pasieka24.pl</a
+                >
+              </th>
+            </tr>
+          </tfoot>
+        </table>
+      </div>
+      <button class="main__button js-tableButton">
+        Zmień tło nagłówków tabeli.
+      </button>
+      <div class="main__container">
+        <a class="main__navigationLink" href="#top">Do góry</a>
+      </div>
+
+      <section class="section" id="kontakt">
+        <h2 class="section__header">Kontakt.</h2>
+        <ul class="section__contactList">
+          <li>
+            Telefon:
+            <a href="tel:+48123123123">123 123 123</a>
+          </li>
+          <li>
+            e-mail:
+            <a href="mailto:mamycie@bee.com">mamycie@bee.com</a>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>Design by MJU</p>
+    </footer>
+  </body>
+</html>
