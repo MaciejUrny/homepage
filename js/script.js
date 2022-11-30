@@ -14,6 +14,14 @@
             "Pokaż zdjęcie." : "Ukryj zdjęcie.";
     };
 
+    const onChangeTableBackground = () => {
+        const tHeader = document.querySelectorAll("th");
+
+        for (let i = 0; i < tHeader.length; i++) {
+            tHeader[i].classList.toggle("table__cell--headerHighlighted");
+        }
+    }
+
     const init = () => {
         const hiddenPhotoButton = document.querySelector(".js-hiddenPhotoButton");
 
@@ -24,14 +32,9 @@
 
     init();
    
-    let tableButton = document.querySelector(".js-tableButton");
-    let tHeader = document.querySelectorAll("th");
+    const tableButton = document.querySelector(".js-tableButton");
 
-    tableButton.addEventListener("click", () => {
-        for (let i = 0; i < tHeader.length; i++) {
-            tHeader[i].classList.toggle("table__cell--headerHighlighted");
-        }
-    });
+    tableButton.addEventListener("click", onChangeTableBackground);
 
     let data = new Date();
     let day = data.getDay();
