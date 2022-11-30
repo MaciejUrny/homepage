@@ -1,5 +1,5 @@
 {
-    function welcome() {
+    const welcome = () => {
         console.log("Witam na mojej stronie.");
         console.log("Mam nadzieję, że o niczym nie zapomniałem.");
         console.log("Dziękuję za sprawdzenie pracy.");
