@@ -24,17 +24,16 @@
 
     const init = () => {
         const hiddenPhotoButton = document.querySelector(".js-hiddenPhotoButton");
+        const tableButton = document.querySelector(".js-tableButton");
 
         hiddenPhotoButton.addEventListener("click", onHiddenPhoto);
+        tableButton.addEventListener("click", onChangeTableBackground);
 
         welcome();
     }
 
     init();
-   
-    const tableButton = document.querySelector(".js-tableButton");
 
-    tableButton.addEventListener("click", onChangeTableBackground);
 
     let data = new Date();
     let day = data.getDay();
