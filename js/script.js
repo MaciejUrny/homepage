@@ -5,17 +5,25 @@
         console.log("Dziękuję za sprawdzenie pracy.");
     };
 
-    welcome();
+    const onHiddenPhoto = () => {
+        const button = document.querySelector(".js-button");
+        const photo = document.querySelector(".js-image");
 
-    let button = document.querySelector(".js-button");
-    let photo = document.querySelector(".js-image");
-
-    button.addEventListener("click", () => {
         photo.classList.toggle("hidden");
         button.innerText = photo.classList.contains("hidden") ?
             "Pokaż zdjęcie." : "Ukryj zdjęcie.";
-    });
+    };
 
+    const init = () => {
+        const hiddenPhotoButton = document.querySelector(".js-hiddenPhotoButton");
+
+        hiddenPhotoButton.addEventListener("click", onHiddenPhoto);
+
+        welcome();
+    }
+
+    init();
+   
     let tableButton = document.querySelector(".js-tableButton");
     let tHeader = document.querySelectorAll("th");
 
