@@ -1,6 +1,8 @@
+{
 console.log("Witam na mojej stronie.");
 console.log("Mam nadzieję, że o niczym nie zapomniałem.");
 console.log("Dziękuję za sprawdzenie pracy.");
+
 let button = document.querySelector(".js-button");
 let photo = document.querySelector(".js-image");
 
@@ -36,4 +38,6 @@ switch (day) {
     case (5): console.log("Jest piątek. Weekendu początek.");
         break;
     default: console.log("Jest sobota. Baw się puki możesz.");
+};
+
 };
