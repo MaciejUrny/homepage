@@ -20,7 +20,28 @@
         for (let i = 0; i < tHeader.length; i++) {
             tHeader[i].classList.toggle("table__cell--headerHighlighted");
         }
-    }
+    };
+
+    const message = () => {
+        const data = new Date();
+        const day = data.getDay();
+
+        switch (day) {
+            case (0): console.log("Jest niedziela. Koniec weekendu :[");
+                break;
+            case (1): console.log("Jest poniedziałek. Weź się do pracy :P");
+                break;
+            case (2): console.log("Jest wtorek. Trzymaj się.");
+                break;
+            case (3): console.log("Jest środa. Czuć zapach weekendu.");
+                break;
+            case (4): console.log("Jest czwartek. Zbliża się weekend");
+                break;
+            case (5): console.log("Jest piątek. Weekendu początek.");
+                break;
+            default: console.log("Jest sobota. Baw się puki możesz.");
+        };
+    };
 
     const init = () => {
         const hiddenPhotoButton = document.querySelector(".js-hiddenPhotoButton");
@@ -30,28 +51,8 @@
         tableButton.addEventListener("click", onChangeTableBackground);
 
         welcome();
-    }
-
-    init();
-
-
-    let data = new Date();
-    let day = data.getDay();
-
-    switch (day) {
-        case (0): console.log("Jest niedziela. Koniec weekendu :[");
-            break;
-        case (1): console.log("Jest poniedziałek. Weź się do pracy :P");
-            break;
-        case (2): console.log("Jest wtorek. Trzymaj się.");
-            break;
-        case (3): console.log("Jest środa. Czuć zapach weekendu.");
-            break;
-        case (4): console.log("Jest czwartek. Zbliża się weekend");
-            break;
-        case (5): console.log("Jest piątek. Weekendu początek.");
-            break;
-        default: console.log("Jest sobota. Baw się puki możesz.");
+        message();
     };
 
+    init();
 };
