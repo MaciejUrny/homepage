@@ -22,7 +22,7 @@
         }
     };
 
-    const message = () => {
+    const showConsolMessage = () => {
         const data = new Date();
         const day = data.getDay();
 
@@ -51,7 +51,7 @@
         tableButton.addEventListener("click", onChangeTableBackground);
 
         welcome();
-        message();
+        showConsolMessage();
     };
 
     init();
