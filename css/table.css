@@ -17,7 +17,7 @@
     vertical-align: middle;
 }
 
-.table__cell--header {
+.table__header {
     background-color: orange;
     border: 1px solid rgb(160, 3, 3);
     padding: 5px;
