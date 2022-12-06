@@ -29,6 +29,6 @@
     background-color: orangered;
 }
 
-.table__cell--headerHighlighted {
+.table__header--highlighted {
     background-color: rgb(157, 255, 0);
 }

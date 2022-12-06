@@ -18,7 +18,7 @@
         const tHeader = document.querySelectorAll("th");
 
         for (let i = 0; i < tHeader.length; i++) {
-            tHeader[i].classList.toggle("table__cell--headerHighlighted");
+            tHeader[i].classList.toggle("table__header--highlighted");
         }
     };
 
