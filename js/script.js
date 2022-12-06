@@ -23,8 +23,7 @@
     };
 
     const showConsolMessage = () => {
-        const data = new Date();
-        const day = data.getDay();
+        const day = new Date().getDay();
 
         switch (day) {
             case (0): console.log("Jest niedziela. Koniec weekendu :[");
